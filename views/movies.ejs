@@ -1,0 +1,18 @@
+<%include partials/header%>
+<div class="row mt-5">
+    <%for(var i=0; i<movies.Search.length; i++){%>  
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card mt-3 mb-3">
+                <img src="<%=movies.Search[i].Poster%>" class="card-img-top" alt="">
+                <div class="container mt-1">
+                    <h5 class="card-title"><%=movies.Search[i].Title%></h5>
+                    <p class="card-text">Year: <%=movies.Search[i].Year%></p>
+                    <p class="card-text">Type: <%=movies.Search[i].Type%></p>
+                </div>
+
+                
+            </div>
+        </div>
+    <%}%>
+</div>
+<%include partials/footer%>
