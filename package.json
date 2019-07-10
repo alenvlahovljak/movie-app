@@ -1,0 +1,17 @@
+{
+  "name": "movie-app",
+  "version": "1.0.0",
+  "description": "Movie database",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alen Vlahovljak",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "serve-favicon": "^2.5.0"
+  }
+}
